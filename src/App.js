@@ -1,16 +1,26 @@
 import React from 'react';
 import Header from "./Header.js"
 import Home from "./Home.js"
+import Checkout from "./Checkout.js"
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header />
-      <Home />
-      {/* https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg */}
+     <Switch>
+       <Router path="/checkout">
+         <Checkout />
+       </Router>
+       <Route path="/">
+       <Home />
 
-      {/* <img src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" /> */}
+       </Route>      
+       </Switch> 
+   
     </div>
-
+</Router>
     // header
     //home
   );
