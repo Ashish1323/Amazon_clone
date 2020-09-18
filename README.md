@@ -1,3 +1,17 @@
+Fully Functional E-Commerce Website.
+
+Live Website: https://amazonusaclone.netlify.app/
+
+Images: ![Capture1](https://user-images.githubusercontent.com/42762022/93638367-ca630b80-fa14-11ea-8869-6412f91f5917.JPG)
+![Capture3](https://user-images.githubusercontent.com/42762022/93638371-cb943880-fa14-11ea-945c-830a68ef16cf.JPG)
+![Capture](https://user-images.githubusercontent.com/42762022/93638373-cb943880-fa14-11ea-82ab-99de0c14adf7.JPG)
+
+
+Video: ![React App - Google Chrome 2020-09-19 00-45-50](https://user-images.githubusercontent.com/42762022/93638128-62acc080-fa14-11ea-9975-09c56018cc28.gif)
+ 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
